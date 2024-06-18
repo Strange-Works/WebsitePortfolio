@@ -1,0 +1,125 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffffff;
+}
+
+header,
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+}
+
+header.parallax {
+  background-image: url("header-bg.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffcc00;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 2em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+nav {
+  background: #444;
+  color: #fff;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 2em 0;
+  text-align: center; /* Center align text within sections */
+  border-top: 1px solid #000; /* Thin black line between sections */
+  padding-top: 30px; /* Add padding top to separate border from text */
+}
+
+section p {
+  margin-bottom: 15px; /* Reduce margin bottom for paragraphs */
+}
+
+a {
+  color: #ffcc00;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 2em 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Gap between social icons */
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffcc00; /* Yellow color for social icons */
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+}
+
+.profile-image {
+  border: 5px solid #000; /* Thick black border around the image */
+  border-radius: 10px; /* Rounded corners for the image */
+  padding: 5px;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
